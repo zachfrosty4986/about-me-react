@@ -3,14 +3,14 @@ import React from 'react';
 const Resume = () => {
   return (
     <section id="resume">
-      <a href="path-to-resume.pdf" download>Download Resume</a>
+      <a href="https://drive.google.com/file/d/1bNN8Ede4xNcQp77zDitqp6e_i7aFjbsg/view?usp=sharing" target="_blank">Download Resume</a>
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
-        {/* Add more proficiencies */}
+        <li>Computer Science and repair</li>
+        <li>Full stack application development</li>
       </ul>
     </section>
   );
 };
 
 export default Resume;
+"C:\Users\zachj\Downloads\Technology Resume Zachary Magras.pdf"

@@ -9,7 +9,7 @@ git header {
   }
   
   nav a {
-    color: #fff;
+    color: #333;
     margin: 0 1rem;
     text-decoration: none;
   }
@@ -29,4 +29,10 @@ git header {
     color: #fff;
     margin: 0 1rem;
     text-decoration: none;
+  }
+
+  .my-photo {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
   }

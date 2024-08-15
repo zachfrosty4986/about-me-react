@@ -1,38 +1,45 @@
-git header {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  nav a {
-    color: #333;
-    margin: 0 1rem;
-    text-decoration: none;
-  }
-  
-  nav .active {
-    font-weight: bold;
-  }
-  
-  footer {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  footer a {
-    color: #fff;
-    margin: 0 1rem;
-    text-decoration: none;
-  }
+/* Styles for the header element */
+header {
+  background: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 1rem; /* Adds padding to the header */
+}
 
-  .my-photo {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-  }
+/* Styles for the h1 element inside the header */
+header h1 {
+  margin: 0; /* Removes default margin for better spacing */
+}
+
+/* Styles for anchor elements inside the nav element */
+nav a {
+  color: #333; /* Dark color for links */
+  margin: 0 1rem; /* Adds horizontal spacing between links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Styles for the active navigation link */
+nav .active {
+  font-weight: bold; /* Makes the active link bold */
+}
+
+/* Styles for the footer element */
+footer {
+  background: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 1rem; /* Adds padding to the footer */
+  text-align: center; /* Centers text in the footer */
+}
+
+/* Styles for anchor elements inside the footer */
+footer a {
+  color: #fff; /* White color for links */
+  margin: 0 1rem; /* Adds horizontal spacing between links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Styles for the element with the class 'my-photo' */
+.my-photo {
+  border-radius: 50%; /* Makes the photo circular */
+  width: 250px; /* Sets a fixed width */
+  height: 250px; /* Sets a fixed height */
+}

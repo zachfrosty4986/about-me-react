@@ -1,11 +1,14 @@
+/* Styles for the body element */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  main {
-    padding: 1rem;
-  }
+  font-family: Arial, sans-serif; /* Sets the font family to Arial with a fallback to sans-serif */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/* Styles for the main element */
+main {
+  padding: 1rem; /* Adds padding inside the main element */
+}
+
   
